@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<World>
+		<!-- World Configuration: 100 x 100 -->
+		<MaxY>100</MaxY>
+		<MaxX>100</MaxX>
+		
+	</World>
+	<Creatures>
+		<!-- Example configuration of creatures -->
+		<Creature>
+			<Name>Goblin</Name>
+			<HitPoint>50</HitPoint>
+		</Creature>
+		<Creature>
+			<Name>Dragon</Name>
+			<HitPoint>100</HitPoint>
+		</Creature>
+		<Creature>
+			<Name>Knight</Name>
+			<HitPoint>75</HitPoint>
+		</Creature>
+	</Creatures>
+	
+	<Items>
+		<!-- Configuration of different weapon types-->
+		<Attack>
+			<AttackItem>
+				<Name>Axe</Name>
+				<Damage>15</Damage>
+				<Range>1</Range>
+			</AttackItem>
+			<AttackItem>
+				<Name>Sword</Name>
+				<Damage>10</Damage>
+				<Range>2</Range>
+			</AttackItem>
+			<AttackItem>
+				<Name>Bow</Name>
+				<Damage>8</Damage>
+				<Range>5</Range>
+			</AttackItem>
+		</Attack>
+
+		<Defense>
+			<DefenseItem>
+				<Name>Shield</Name>
+				<Defense>5</Defense>
+				<Type>Shield</Type>
+			</DefenseItem>
+			<DefenseItem>
+				<Name>Iron Helmet</Name>
+				<Defense>10</Defense>
+				<Type>Helmet</Type>
+			</DefenseItem>
+		</Defense>
+	</Items>
+</Config>

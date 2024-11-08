@@ -120,7 +120,7 @@ namespace GameFrameworkProjectAdvSoftware.Models.Creatures
         /// A method to receive a hit from another creature and calculate the amount of damage taken after defense items are taken into account
         /// </summary>
         /// <param name="hit">initial damage taken</param>
-        public void ReceiveHit(int hit)
+        public virtual void ReceiveHit(int hit)
         {
             int totalDefense = DefenseItems.Values.Sum(defense => defense.Armor);
             int damageTaken = Math.Max(hit - totalDefense, 0);
